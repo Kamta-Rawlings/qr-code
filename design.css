@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+}
+/*html{
+    font-size: 62.5%;
+}*/
+/*How to use flex box while coding*/
+body{
+    /* background-image: url("images/image-qr-code.png");
+   background-position: 50%;*/
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);  
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* How to use grid box
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}*/
+.attribution { 
+    margin-top: 1rem;
+    font-size: 11px; 
+    text-align: center; }
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+     }
+     .container{
+        padding: 5px;
+        background-color: hsl(0, 0%, 100%) ; 
+        max-height: 497px;
+        width: 330px;
+        border-radius: 20px;
+        text-align: center;
+    }
+     /*.qrimg{
+       background-size: cover;
+        /*background-image: url("images/image-qr-code.png");*/
+         /*justify-content: center;
+        display: flex;
+        padding-top: 1rem;
+        max-width: 288px;
+        width: 40%;
+        margin: auto;
+       }*/
+      
+       .con-img img{
+        width: auto;
+        height: 300px;
+        border-radius: 15px;
+        margin: 10px 0px;
+    } 
+    
+
+     .elements h1{
+        font-size: 1.5rem;
+        color: hsl(218, 44%, 22%);
+        margin-bottom: 0;
+        font-weight: 700;
+        padding:9px;
+       
+
+    }
+     
+    .elements p {
+        font-size: 18px;
+        font-weight: 400;
+        color:hsl(220, 15%, 55%);
+        margin-bottom: 1.5rem;
+        margin-top: -15px;
+        padding:20px;
+    }
+     footer{
+        position:fixed ; /* Stay where you are been put*/
+        bottom: 0; /*At the bottom with no space in between*/
+        width:100%; /*filling the width of my body*/
+        padding-bottom: 10px;
+    }
